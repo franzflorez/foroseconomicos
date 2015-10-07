@@ -40,6 +40,7 @@ function foro_contactenos_page_alter(&$page) {
     if (arg(0) == 'contactenos-foros-economicos') {
         unset($page['header']);
         unset($page['help']);
+        unset($page['highlighted']);
         unset($page['sidebar_first']);
     }
 }
