@@ -105,7 +105,7 @@ body {
 }
 
 
-.base-all .contenedor-1 .mensaje .form-class-contacto {
+.base-all .contenedor-1 .form-class-contacto {
     vertical-align: top;
     zoom: 1;
     position: relative;    
