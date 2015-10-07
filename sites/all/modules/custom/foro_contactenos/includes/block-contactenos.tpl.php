@@ -82,14 +82,14 @@ body {
     padding: 28px 0 0;
     /*background: #00a2ad;*/
     font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
-    font-size: 38px;
+    font-size: 33px !important;
     line-height: 46px;
     font-weight: 600;
     letter-spacing: 0;
     color: #00a2ad;
 }
 .base-all .contenedor-1 .mensaje h3 {
-    width: 600px;
+    width: 696px;
     margin: 0 0 32px;
     display: inline-block;
     font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
