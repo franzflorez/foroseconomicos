@@ -59,11 +59,6 @@ body {
     zoom: 1;
 }
 
-.base-all .mensaje{  
-    width: 780px;
-    margin: -102px 0 0 -90px;
-    text-align: center;    
-}
 
 
 
@@ -74,6 +69,24 @@ body {
     margin-top: 74px;
     margin: 0 auto;
     max-width: 820px;    
+}
+
+.base-all .mensaje{  
+    width: 780px;
+    margin: -102px 0 0 -90px;
+    text-align: center;    
+}
+.base-all .contenedor-1 .mensaje h2 {
+    width: 780px;
+    height: 124px;
+    padding: 28px 0 0;
+    background: #3ea9f5;
+    font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #fff;
 }
 
 </style>
