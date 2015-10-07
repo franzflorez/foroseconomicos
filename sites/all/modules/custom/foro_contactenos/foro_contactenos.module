@@ -37,4 +37,9 @@ function foro_contactenos_theme()
 function foro_contactenos_page_alter(&$page) {
     dpm(arg(0),"arg");
     dpm($page,"page");
+    if (arg(0) == 'contactenos-foros-economicos') {
+        unset($page['header']);
+        unset($page['help']);
+        unset($page['sidebar_first']);
+    }
 }
