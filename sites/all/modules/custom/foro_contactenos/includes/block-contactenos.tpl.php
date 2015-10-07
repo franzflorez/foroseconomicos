@@ -59,11 +59,22 @@ body {
     zoom: 1;
 }
 
-
 .base-all .mensaje{  
     width: 780px;
     margin: -102px 0 0 -90px;
     text-align: center;    
 }
+
+
+
+.base-all .contenedor-1 {
+    background-color: #3ea9f5;
+    padding: 20px 20px 30px;
+    width: 600px;
+    margin-top: 74px;
+    margin: 0 auto;
+    max-width: 820px;    
+}
+
 </style>
     
