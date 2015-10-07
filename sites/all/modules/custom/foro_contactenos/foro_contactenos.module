@@ -41,6 +41,9 @@ function foro_contactenos_page_alter(&$page) {
         unset($page['header']);
         unset($page['help']);
         unset($page['highlighted']);
+        unset($page['featured']);
+        unset($page['sidebar_second']);
+        unset($page['highlighted']);
         unset($page['sidebar_first']);
     }
 }
