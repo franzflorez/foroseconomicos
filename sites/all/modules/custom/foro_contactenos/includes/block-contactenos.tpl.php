@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" version="XHTML+RDFa 1.0" dir="ltr">
     <head>
@@ -7,8 +8,8 @@
         <!--<link type="text/css" rel="stylesheet" media="all" href="" />
         <script type="text/javascript" src=></script>-->
     </head> 
-    <body>
+    <body>-->
         <?php dpm($variables); ?>
         <?php echo $variables["contacto"]; ?>
-    </body>
-</html>
+    <!--</body>
+</html>-->
