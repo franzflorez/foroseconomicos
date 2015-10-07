@@ -78,7 +78,7 @@ body {
 }
 .base-all .contenedor-1 .mensaje h2 {
     width: 780px;
-    height: 124px;
+    height: 34px;
     padding: 28px 0 0;
     background: #3ea9f5;
     font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
