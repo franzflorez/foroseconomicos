@@ -134,7 +134,14 @@ body {
     display: block;
 }
 .base-all .contenedor-1 .form-class-contacto .form_wrapper form input {
-    border: 0px solid #003631;
+    -webkit-appearance: textfield;
+    padding: 1px;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;    
+    
+    border: 1px solid #003631;
     font-family: "Avenir", Futura, sans-serif;
     font-size: 17px;
     height: 38px;
