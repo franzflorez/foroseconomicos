@@ -11,9 +11,9 @@
     <div class="contenedor-1">
         <div class="mensaje">
             <h2>Contáctenos</h2>
-            <p>
+            <h3>
                 Si desea más información del proximo evento, dejenos sus datos y pronto nos comunicaremos con usted para brindarle mayor información. 
-            </p>
+            </h3>
             <div style="clear:both"></div>
         </div>
         <div class="form-class-contacto">
