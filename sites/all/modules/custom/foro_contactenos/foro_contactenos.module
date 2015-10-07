@@ -34,7 +34,7 @@ function foro_contactenos_theme()
 /**
  * Implementa hook_page_alter().
  */
-function alfa_embajada_page_alter(&$page) {
+function foro_contactenos_page_alter(&$page) {
     dpm(arg(0),"arg");
     dpm($page,"page");
 }
