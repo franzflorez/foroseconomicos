@@ -171,6 +171,7 @@ input, textarea, keygen, select, button {
 #edit-submitted-empresa,
 #edit-submitted-email,
 #edit-submitted-celular,
+#edit-submitted-ciudad,
 #edit-submitted-telefono-fijo{
     margin: 0;
     padding: 0;
