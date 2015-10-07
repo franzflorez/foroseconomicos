@@ -1,0 +1,4 @@
+name = Landing de contactenos
+description = Module que permite crear un landing de contactenos
+core = 7.x
+package = ForosEconomicosColombia

@@ -1,0 +1,31 @@
+<?php
+
+function foro_contactenos_vivo_menu()
+{
+    $items['contactenos-foros-economicos'] = array(
+	'title' => 'Foros Económicos Colombia | contactenos',
+	'page callback' => 'foro_economicos_contactenos',
+	'access arguments' => array(ACCESS),
+    );
+    return $items;
+}
+function foro_economicos_contactenos(){
+    print theme('foro_economicos_contactenos', array('contacto' =>$form_contacto));
+}
+/**
+ * Implements hook_init().
+ */
+function foro_contactenos_init()
+{
+    
+}
+/**
+ * Implementa hook_theme().
+ */
+function blu_senal_vivo_theme()
+{
+    //@todo Pasar tabs.tpl a la carpeta includes
+    return array(
+        'foro_economicos_contactenos' => array('variables' => array('contacto' => ''), 'template' => 'includes/block-contactenos'), 
+        );
+}
