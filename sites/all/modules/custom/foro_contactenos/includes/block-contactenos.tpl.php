@@ -47,10 +47,10 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 20px 0;    
+    padding: 0px 0;    
 }    
 .base-all .contenedor-0{
-    margin-top: 26px;
+    margin-top: 0px;
     padding: 0px 49px 0 45px;
 }
 .base-all .contenedor-0 .logo {
