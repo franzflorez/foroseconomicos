@@ -63,7 +63,7 @@ body {
 
 
 .base-all .contenedor-1 {
-    background-color: #3ea9f5;
+    background-color: #00a2ad;
     padding: 20px 20px 30px;
     width: 600px;
     margin-top: 74px;
@@ -80,7 +80,7 @@ body {
     width: 780px;
     height: 34px;
     padding: 28px 0 0;
-    background: #3ea9f5;
+    background: #00a2ad;
     font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
     font-size: 38px;
     line-height: 46px;
