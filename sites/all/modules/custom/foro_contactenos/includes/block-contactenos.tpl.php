@@ -17,7 +17,10 @@
             <div style="clear:both"></div>
         </div>
         <div class="form-class-contacto">
-            <?php echo $variables["contacto"]; ?>
+            <div class="form_wrapper">
+                <?php echo $variables["contacto"]; ?>
+                <div style="clear:both"></div>
+            </div>
             <div style="clear:both"></div>
         </div>
         <div style="clear:both"></div>
@@ -115,6 +118,12 @@ body {
     width: 90%;
     margin: 0 auto;
     display: block;
+}
+.base-all .contenedor-1 .form-class-contacto .form_wrapper{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
 }
 
 </style>
