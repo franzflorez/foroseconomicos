@@ -43,7 +43,17 @@ body {
 .base-all .contenedor-0{
     margin-top: 26px;
     padding: 0px 49px 0 45px;
-}   
+}
+.base-all .contenedor-0 .logo {
+    text-align: left;
+    width: 93.5%;
+    margin-top: 6px;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+}
+
+
 .base-all .mensaje{  
     width: 780px;
     margin: -102px 0 0 -90px;
