@@ -134,7 +134,7 @@ body {
     display: block;
 }
 .base-all .contenedor-1 .form-class-contacto .form_wrapper form input {
-    border: 0px solid #cbd0d6;
+    border: 0px solid #003631;
     font-family: "Avenir", Futura, sans-serif;
     font-size: 17px;
     height: 38px;
