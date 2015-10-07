@@ -133,6 +133,20 @@ body {
     border: none;
     display: block;
 }
+
+input, textarea, keygen, select, button {
+    margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
 .base-all .contenedor-1 .form-class-contacto .form_wrapper form input {
     -webkit-appearance: textfield;
     padding: 1px;
