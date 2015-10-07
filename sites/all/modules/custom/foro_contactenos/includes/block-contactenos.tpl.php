@@ -9,6 +9,6 @@
     </head> 
     <body>
         <h1>Contactenos</h1>
-        
+        <?php echo $variables["contacto"]; ?>
     </body>
 </html>
