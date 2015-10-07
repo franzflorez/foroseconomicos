@@ -124,6 +124,14 @@ body {
     padding: 0;
     width: 100%;
     text-align: center;
+    position: relative;
+}
+.base-all .contenedor-1 .form-class-contacto .form_wrapper form {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+    display: block;
 }
 
 </style>
