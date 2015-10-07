@@ -86,7 +86,7 @@ body {
     line-height: 46px;
     font-weight: 600;
     letter-spacing: 0;
-    color: #00a2ad;
+    color: #003631;
 }
 .base-all .contenedor-1 .mensaje h3 {
     width: 696px;
@@ -97,7 +97,7 @@ body {
     line-height: 28px;
     font-weight: 500;
     letter-spacing: 0;
-    color: #00a2ad;
+    color: #003631;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
