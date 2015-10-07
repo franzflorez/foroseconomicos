@@ -8,7 +8,7 @@
         <script type="text/javascript" src=></script>-->
     </head> 
     <body>
-        <?php dpm($variables); ?>
+        <div id="messages"></div>
         <?php echo $variables["contacto"]; ?>
     </body>
 </html>
