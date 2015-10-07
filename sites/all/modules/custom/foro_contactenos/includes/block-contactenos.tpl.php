@@ -9,6 +9,7 @@
     </head> 
     <body>
         <h1>Contactenos</h1>
+        <?php dpm($variables); ?>
         <?php echo $variables["contacto"]; ?>
     </body>
 </html>
