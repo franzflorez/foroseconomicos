@@ -8,7 +8,6 @@
         <script type="text/javascript" src=></script>-->
     </head> 
     <body>
-        <h1>Contactenos 2</h1>
         <?php dpm($variables); ?>
         <?php echo $variables["contacto"]; ?>
     </body>

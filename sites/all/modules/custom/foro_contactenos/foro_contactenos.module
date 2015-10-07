@@ -11,7 +11,7 @@ function foro_contactenos_menu()
 }
 function foro_economicos_contactenos(){
     $form_contacto=drupal_render(drupal_get_form('webform_client_form_1'));
-    print theme('foro_economicos_contactenos', array('contacto' =>$form_contacto));
+    return theme('foro_economicos_contactenos', array('contacto' =>$form_contacto));
 }
 /**
  * Implements hook_init().
