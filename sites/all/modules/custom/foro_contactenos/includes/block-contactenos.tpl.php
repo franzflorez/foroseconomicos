@@ -86,7 +86,7 @@ body {
     line-height: 46px;
     font-weight: 600;
     letter-spacing: 0;
-    color: #fff;
+    color: #00a2ad;
 }
 
 </style>
