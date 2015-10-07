@@ -133,6 +133,18 @@ body {
     border: none;
     display: block;
 }
+.base-all .contenedor-1 .form-class-contacto .form_wrapper form input {
+    border: 0px solid #cbd0d6;
+    font-family: "Avenir", Futura, sans-serif;
+    font-size: 17px;
+    height: 38px;
+    margin-left: 4px;
+    outline: 0px;
+    padding-left: 10px;
+    vertical-align: bottom;
+    width: 254px;
+    -webkit-font-smoothing: antialiased;
+}
 
 </style>
     
