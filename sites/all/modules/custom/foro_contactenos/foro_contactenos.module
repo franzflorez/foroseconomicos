@@ -31,3 +31,10 @@ function foro_contactenos_theme()
         'foro_economicos_contactenos' => array('variables' => array('contacto' => ''), 'template' => 'includes/block-contactenos'), 
         );
 }
+/**
+ * Implementa hook_page_alter().
+ */
+function alfa_embajada_page_alter(&$page) {
+    dpm(arg(0),"arg");
+    dpm($page,"page");
+}
