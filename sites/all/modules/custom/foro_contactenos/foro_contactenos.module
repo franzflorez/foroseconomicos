@@ -3,7 +3,7 @@
 function foro_contactenos_menu()
 {
     $items['contactenos-foros-economicos'] = array(
-    'title' => 'Foros Económicos Colombia | contactenos',
+    'title' => '',
     'page callback' => 'foro_economicos_contactenos',
     'access arguments' => array('access content'),
     );
