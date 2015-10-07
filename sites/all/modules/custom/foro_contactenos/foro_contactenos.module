@@ -1,11 +1,11 @@
 <?php
 
-function foro_contactenos_vivo_menu()
+function foro_contactenos_menu()
 {
     $items['contactenos-foros-economicos'] = array(
-	'title' => 'Foros Económicos Colombia | contactenos',
-	'page callback' => 'foro_economicos_contactenos',
-	'access arguments' => array(ACCESS),
+    'title' => 'Foros Económicos Colombia | contactenos',
+    'page callback' => 'foro_economicos_contactenos',
+    'access arguments' => array(ACCESS),
     );
     return $items;
 }
@@ -22,7 +22,7 @@ function foro_contactenos_init()
 /**
  * Implementa hook_theme().
  */
-function blu_senal_vivo_theme()
+function foro_contactenos_theme()
 {
     //@todo Pasar tabs.tpl a la carpeta includes
     return array(
