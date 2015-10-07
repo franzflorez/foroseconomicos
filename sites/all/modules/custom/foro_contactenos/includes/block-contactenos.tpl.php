@@ -88,6 +88,21 @@ body {
     letter-spacing: 0;
     color: #00a2ad;
 }
+.base-all .contenedor-1 .mensaje h3 {
+    width: 600px;
+    margin: 0 0 32px;
+    display: inline-block;
+    font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #00a2ad;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;    
+}
 
 </style>
     
