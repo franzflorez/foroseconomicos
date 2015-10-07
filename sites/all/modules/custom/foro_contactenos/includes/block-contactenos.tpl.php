@@ -167,5 +167,27 @@ input, textarea, keygen, select, button {
     -webkit-font-smoothing: antialiased;
 }
 
+#edit-submitted-nombre,
+#edit-submitted-empresa,
+#edit-submitted-email,
+#edit-submitted-celular,
+#edit-submitted-telefono-fijo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    font-size: 16px;
+    height: auto;
+    padding: 21px 23px;
+    width: 47.5%;
+    display: inline-block;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
 </style>
     
