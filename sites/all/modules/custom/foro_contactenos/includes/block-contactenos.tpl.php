@@ -8,7 +8,8 @@
         <script type="text/javascript" src=></script>-->
     </head> 
     <body>
-        <div id="messages"></div>
+        <?php global $variables; ?>
+        <div id="messages"><?php print theme_status_messages($variables); ?></div>
         <?php echo $variables["contacto"]; ?>
     </body>
 </html>
