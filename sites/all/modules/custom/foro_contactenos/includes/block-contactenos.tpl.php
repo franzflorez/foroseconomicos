@@ -33,9 +33,15 @@ body {
     font-family: "Avenir", Futura, Helvetica, sans-serif;
     color: #363945;
     -webkit-font-smoothing: antialiased;
-}    
+} 
+#main-wrapper #main {
+    width: 1000px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin: 0 auto;
+}
 .base-all{
-    max-width: 1430px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     padding: 20px 0;    
