@@ -1,22 +1,49 @@
 <div class="base-all">
-    <div class="logo">
-        <img width="340" title="foros económicos" src="http://www.foroseconomicos.com/sites/all/modules/custom/foro_contactenos/img/foros_economicos-2.jpg"/>
+    <div class="contenedor-0">
+        <div class="logo">
+            <a href="http://www.foroseconomicos.com/">
+                <img width="340" title="foros económicos" src="http://www.foroseconomicos.com/sites/all/modules/custom/foro_contactenos/img/foros_economicos-2.jpg"/>
+            </a>
+            <div style="clear:both"></div>
+        </div>
         <div style="clear:both"></div>
     </div>
-    <div class="mensaje">
-        <h2>Contáctenos</h2>
-        <p>
-            Si desea más información del proximo evento, dejenos sus datos y pronto nos comunicaremos con usted para brindarle mayor información. 
-        </p>
-        <div style="clear:both"></div>
-    </div>
-    <div class="form-class-contacto">
-        <?php echo $variables["contacto"]; ?>
+    <div class="contenedor-1">
+        <div class="mensaje">
+            <h2>Contáctenos</h2>
+            <p>
+                Si desea más información del proximo evento, dejenos sus datos y pronto nos comunicaremos con usted para brindarle mayor información. 
+            </p>
+            <div style="clear:both"></div>
+        </div>
+        <div class="form-class-contacto">
+            <?php echo $variables["contacto"]; ?>
+            <div style="clear:both"></div>
+        </div>
         <div style="clear:both"></div>
     </div>
     <div style="clear:both"></div>
 </div>
 <style>
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eceef1;
+    font-size: 16px;
+    font-family: "Avenir", Futura, Helvetica, sans-serif;
+    color: #363945;
+    -webkit-font-smoothing: antialiased;
+}    
+.base-all{
+    max-width: 1430px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;    
+}    
+.base-all .contenedor-0{
+    margin-top: 26px;
+    padding: 0px 49px 0 45px;
+}   
 .base-all .mensaje{  
     width: 780px;
     margin: -102px 0 0 -90px;
