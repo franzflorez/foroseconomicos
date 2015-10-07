@@ -104,5 +104,18 @@ body {
     -webkit-margin-end: 0px;    
 }
 
+
+.base-all .contenedor-1 .mensaje .form-class-contacto {
+    vertical-align: top;
+    zoom: 1;
+    position: relative;    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
 </style>
     
