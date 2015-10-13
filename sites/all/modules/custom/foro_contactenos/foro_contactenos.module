@@ -67,9 +67,9 @@ function foro_contactenos_block_view($delta)
                 'html' => true,
                     ));
             if (theme_get_setting('slideshow_display','multipurpose')){
-                $block = module_invoke('views', 'block_view', '91c913ec23173e1a796999135f3e00d9');
-                $block=render($block['content']);                
-                $block['content'] = '<di class="base-flex">'.$block.'</div>';
+                $block2 = module_invoke('views', 'block_view', '91c913ec23173e1a796999135f3e00d9');
+                $block2=render($block['content']);                
+                $block['content'] = '<di class="base-flex">'.$block2.'</div>';
             }else{
                 $block['content'] = '';
             }
