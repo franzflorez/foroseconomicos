@@ -45,3 +45,36 @@ function foro_contactenos_page_alter(&$page) {
         unset($page['sidebar_first']);
     }
 }
+function foro_contactenos_block_info()
+{
+    $block['notasDestacadasFlex'] = array(
+        'info' => 'Notas destacadas flex',
+        'cache' => DRUPAL_NO_CACHE,
+    );
+
+    return $block;
+}
+function foro_contactenos_block_view($delta)
+{
+    $block = array();
+    switch ($delta) {
+        case 'notasDestacadasFlex':
+            $custom_title = 'Notas destacadas flex';
+            $block['subject'] = l($custom_title, '#NOTASDESTACADAS', array(
+                'attributes' => array(
+                    'class' => array('notas-destacadas-flex', 'active'),
+                ),
+                'html' => true,
+                    ));
+            if (theme_get_setting('slideshow_display','multipurpose')){
+                $block = module_invoke('views', 'block_view', '91c913ec23173e1a796999135f3e00d9');
+                $block=render($block['content']);                
+                $block['content'] = '<di class="base-flex">'.$block.'</div>';
+            }else{
+                $block['content'] = '';
+            }
+            break;
+    }
+
+    return $block;
+}
