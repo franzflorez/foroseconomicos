@@ -122,6 +122,12 @@
     </nav>
   </div>
   
+    <?php if ($page['destacado_first']): ?>
+      <div class="destacado_first">
+        <?php print render($page['destacado_first']); ?>
+      </div>
+    <?php endif; ?>  
+  
   <?php //if ($is_front): ?>
   <?php if (theme_get_setting('slideshow_display','multipurpose')): ?>
   <!--<div id="homepage-slider-wrap" class="clr flexslider-container">
