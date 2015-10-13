@@ -127,9 +127,6 @@
         <?php print render($page['destacado_first']); ?>
       </div>
     <?php endif; ?>  
-  
-
-
 
   <?php if ($page['preface_first'] || $page['preface_middle'] || $page['preface_last']  || $page['header']): ?>
   <div id="preface-wrap" class="site-preface clr">
