@@ -229,6 +229,6 @@
   <?php endif; ?>
 
   <footer id="copyright-wrap" class="clear">
-    <div id="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php print t('Theme by'); ?>  <a href="http://www.devsaran.com" title="Devsaran" target="_blank">Devsaran</a>.</div>
+    <div id="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>"><?php print $site_name; ?></a>. <?php //print t('Theme by'); ?>  <!--<a href="http://www.devsaran.com" title="Devsaran" target="_blank">Devsaran</a>-->.</div>
   </footer>
 </div>
