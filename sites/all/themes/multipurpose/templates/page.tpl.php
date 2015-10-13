@@ -124,7 +124,7 @@
   
   <?php if ($is_front): ?>
   <?php if (theme_get_setting('slideshow_display','multipurpose')): ?>
-  <div id="homepage-slider-wrap" class="clr flexslider-container">
+  <!--<div id="homepage-slider-wrap" class="clr flexslider-container">
     <div id="homepage-slider" class="flexslider">
       <ul class="slides clr">
         <li>
@@ -138,7 +138,90 @@
         </li>
       </ul>
     </div>
-  </div>
+  </div>-->
+<div id="homepage-slider-wrap" class="clr flexslider-container">  
+    <div id="homepage-slider" class="flexslider">
+      <ul class="slides clr">
+        <li class="" style="width: 940px; float: left; display: block;">  
+        <div class="views-field views-field-field-imagenes">        <div class="field-content"><a href="/content/primer-video"><img typeof="foaf:Image" src="http://www.foroseconomicos.com/sites/default/files/styles/notas_destacada1000x400/public/slide-image-1.jpg?itok=qaxL5loe" width="1000" height="400" alt=""></a></div>  </div>  
+
+      <div class="content-information views-fieldset" data-module="views_fieldsets">
+
+
+      <div class="content-information-left views-fieldset" data-module="views_fieldsets">
+
+
+      </div>
+
+
+      </div>
+
+
+
+      <div class="content-information-right views-fieldset" data-module="views_fieldsets">
+
+            <div class="views-field views-field-title"><h2 class="field-content"><a href="/content/primer-video"><div class="base-titulo-tipo">
+      <div class="titulo-nota">primer video</div>
+      <div class="tipo-video"></div>
+      </div></a></h2></div>      <div class="views-field views-field-field-lead"><p class="field-content">Feugiat maiorum mea et, graece expetenda his et. Justo utamur prodesset te vel, ad adhuc suscipit nominati pro, eum ne quem velit. Ne pro admodum platonem. Ut eam omnes tollit iisque, no vim iisque...</p></div>  
+      </div>
+
+        </li>
+      <li style="width: 940px; float: left; display: block;" class="flex-active-slide">  
+        <div class="views-field views-field-field-imagenes">        <div class="field-content"><a href="/content/lorem-ipsum-dolor-sit-amet-galeria"><img typeof="foaf:Image" src="http://www.foroseconomicos.com/sites/default/files/styles/notas_destacada1000x400/public/slide-image-3.jpg?itok=4ywRG2Rv" width="1000" height="400" alt="eee" title="rfff"></a></div>  </div>  
+
+      <div class="content-information views-fieldset" data-module="views_fieldsets">
+
+
+      <div class="content-information-left views-fieldset" data-module="views_fieldsets">
+
+
+      </div>
+
+
+      </div>
+
+
+
+      <div class="content-information-right views-fieldset" data-module="views_fieldsets">
+
+            <div class="views-field views-field-title"><h2 class="field-content"><a href="/content/lorem-ipsum-dolor-sit-amet-galeria"><div class="base-titulo-tipo">
+      <div class="titulo-nota">Lorem ipsum dolor sit amet, galeria</div>
+      <div class="tipo-galeria"></div>
+      </div></a></h2></div>      <div class="views-field views-field-field-lead"><p class="field-content">consectetur adipiscing elit. Cras egestas diam eget ligula dignissim viverra. Phasellus consectetur nunc eget erat efficitur, vel hendrerit nibh pharetra. Vestibulum ante ipsum primis in faucibus...</p></div>  
+      </div>
+
+        </li>
+      <li style="width: 940px; float: left; display: block;">  
+        <div class="views-field views-field-field-imagenes">        <div class="field-content"><a href="/content/lorem-ipsum-dolor-sit-amet-ea-vis-tantas-repudiare"><img typeof="foaf:Image" src="http://www.foroseconomicos.com/sites/default/files/styles/notas_destacada1000x400/public/slide-image-2.jpg?itok=tI5EyUMz" width="1000" height="400" alt="hgh" title="hgf"></a></div>  </div>  
+
+      <div class="content-information views-fieldset" data-module="views_fieldsets">
+
+
+      <div class="content-information-left views-fieldset" data-module="views_fieldsets">
+
+
+      </div>
+
+
+      </div>
+
+
+
+      <div class="content-information-right views-fieldset" data-module="views_fieldsets">
+
+            <div class="views-field views-field-title"><h2 class="field-content"><a href="/content/lorem-ipsum-dolor-sit-amet-ea-vis-tantas-repudiare"><div class="base-titulo-tipo">
+      <div class="titulo-nota">Lorem ipsum dolor sit amet, ea vis tantas repudiare</div>
+      <div class="tipo-noticias"></div>
+      </div></a></h2></div>      <div class="views-field views-field-field-lead"><p class="field-content">luptatum liberavisse ad his. No nam elitr graece alienum, nam ei possit consequat. Ea tollit fabellas laboramus his. Ei mei comprehensam vituperatoribus, erat congue munere ut vix. Has case minim...</p></div>  
+      </div>
+
+        </li>
+      </ul>  
+      </div>
+</div>  
+  
+  
   <?php endif; ?>
   <?php endif; ?>
 
