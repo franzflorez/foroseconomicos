@@ -4,3 +4,11 @@
     padding: 0;
     display: block;   
 }
+.ver-mas-node a {
+  background-color: #E7E5E3;
+  color: #100100;
+  padding: 4px 5px;
+  border-radius: 4px;
+  text-shadow: 1px 1px #fff;
+  font-weight: normal;
+}
