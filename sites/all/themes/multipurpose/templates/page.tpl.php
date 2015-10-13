@@ -144,6 +144,7 @@
   $block = module_invoke('views', 'block_view', '91c913ec23173e1a796999135f3e00d9');
   print render($block['content']);
   ?>
+  <div class="clear-1" style="clear:both;"></div>
   </di>
   <?php endif; ?>
   <?php //endif; ?>
