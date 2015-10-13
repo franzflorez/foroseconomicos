@@ -127,34 +127,6 @@
         <?php print render($page['destacado_first']); ?>
       </div>
     <?php endif; ?>  
-  
-  <?php //if ($is_front): ?>
-  <?php if (theme_get_setting('slideshow_display','multipurpose')): ?>
-  <!--<div id="homepage-slider-wrap" class="clr flexslider-container">
-    <div id="homepage-slider" class="flexslider">
-      <ul class="slides clr">
-        <li>
-          <img src="<?php //print base_path() . drupal_get_path('theme', 'multipurpose') . '/images/slide-image-1.jpg'; ?>">
-        </li>
-        <li>
-          <img src="<?php //print base_path() . drupal_get_path('theme', 'multipurpose') . '/images/slide-image-2.jpg'; ?>">
-        </li>
-        <li>
-          <img src="<?php //print base_path() . drupal_get_path('theme', 'multipurpose') . '/images/slide-image-3.jpg'; ?>">
-        </li>
-      </ul>
-    </div>
-  </div>-->
-  <di class="base-flex">
-  <?php
-  $block = module_invoke('views', 'block_view', '91c913ec23173e1a796999135f3e00d9');
-  print render($block['content']);
-  ?>
-  <div class="clear-1" style="clear:both;"></div>
-  </di>
-  <?php endif; ?>
-  <?php //endif; ?>
-
 
   <?php if ($page['preface_first'] || $page['preface_middle'] || $page['preface_last']  || $page['header']): ?>
   <div id="preface-wrap" class="site-preface clr">
