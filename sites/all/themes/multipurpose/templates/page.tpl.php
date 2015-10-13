@@ -139,10 +139,12 @@
       </ul>
     </div>
   </div>-->
+  <di class="base-flex">
   <?php
   $block = module_invoke('views', 'block_view', '91c913ec23173e1a796999135f3e00d9');
   print render($block['content']);
   ?>
+  </di>
   <?php endif; ?>
   <?php //endif; ?>
 
