@@ -68,8 +68,8 @@ function foro_contactenos_block_view($delta)
                     ));
             if (theme_get_setting('slideshow_display','multipurpose')){
                 $block2 = module_invoke('views', 'block_view', '91c913ec23173e1a796999135f3e00d9');
-                $block2=render($block['content'],"aaaa");
-                dpm($block2);
+                $block2=render($block2['content']);
+                //dpm($block2,"aaaaa");
                 $block['content'] = '<div class="base-flex">'.$block2.'<div class="clear-1" style="clear:both;"></div></div>';
             }else{
                 $block['content'] = '';
