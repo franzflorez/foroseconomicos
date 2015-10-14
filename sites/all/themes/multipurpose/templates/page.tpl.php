@@ -81,7 +81,7 @@
       </div>
         
         <?php if ($page['patrocinadores']): ?>
-          <div class="patrocinadores">
+          <div class="patrocinadores-zona">
             <?php print render($page['patrocinadores']); ?>
           </div>
         <?php endif; ?>        
