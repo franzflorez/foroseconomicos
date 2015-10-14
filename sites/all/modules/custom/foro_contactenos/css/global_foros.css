@@ -12,10 +12,13 @@
   text-shadow: 1px 1px #fff;
   font-weight: normal;
 }
+#footer-wrap{
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
 #block-block-1{
     margin-bottom: 0;
 }
 #block-block-1 .footer-info{
-  width: 600;
-  margin: 0 auto;
+
 }
