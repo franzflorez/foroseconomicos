@@ -22,6 +22,7 @@
 #block-block-1 .footer-info{
     margin: 0 auto !important;    
     max-width: 600px !important;    
+    text-align: center !important;
 }
 #block-block-1 .footer-info div{
     float: left !important;
