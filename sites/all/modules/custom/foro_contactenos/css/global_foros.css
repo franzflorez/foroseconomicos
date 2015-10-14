@@ -30,11 +30,11 @@
     margin-right: 5px !important;
 }
 /*Patrocinadores*/
+#logo{
+    float: left !important;
+}
 .patrocinadores-zona{
-  position: absolute;
   top: 50%;
   margin-top: -20px;
-  right: 0;
   height: 40px;
-  width: 210px;
 }
