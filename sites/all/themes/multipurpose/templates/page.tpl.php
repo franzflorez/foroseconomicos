@@ -79,6 +79,15 @@
         <?php if ($site_slogan): ?><div id="site-slogan"><?php print $site_slogan; ?></div><?php endif; ?>
         <?php endif; ?>
       </div>
+        
+        <?php if ($page['patrocinadores']): ?>
+          <div class="patrocinadores">
+            <?php print render($page['patrocinadores']); ?>
+          </div>
+        <?php endif; ?>        
+        
+        
+        
       <?php if (theme_get_setting('socialicon_display', 'multipurpose')): ?>
       <?php 
       $twitter_url = check_plain(theme_get_setting('twitter_url', 'multipurpose')); 
