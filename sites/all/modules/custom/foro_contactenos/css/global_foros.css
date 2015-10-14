@@ -17,8 +17,9 @@
   padding-top: 10px !important;
 }
 #block-block-1{
-    margin-bottom: 0 !important;
+    margin-bottom: 0 !important;    
 }
 #block-block-1 .footer-info{
-
+    float: left !important;
+    margin-right: 5px !important;
 }
