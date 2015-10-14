@@ -19,6 +19,9 @@
 #block-block-1{
     margin-bottom: 0 !important;    
 }
+#block-block-1 .footer-info{
+    text-align: center;
+}
 #block-block-1 .footer-info div{
     float: left !important;
     margin-right: 5px !important;
