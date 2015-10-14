@@ -7,6 +7,7 @@ stylesheets[all][] = css/responsive.css
 scripts[] = js/retina.js
 scripts[] = js/plugins.js
 scripts[] = js/global.js
+regions[patrocinadores]  = Patrocinadores
 regions[destacado_first]  = Destacado First
 regions[sidebar_first]  = First Sidebar
 regions[header]         = Header
