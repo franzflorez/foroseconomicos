@@ -12,6 +12,7 @@
   text-shadow: 1px 1px #fff;
   font-weight: normal;
 }
+/*FOOTER*/
 #footer-wrap{
   padding-bottom: 0px !important;
   padding-top: 10px !important;
@@ -27,4 +28,13 @@
 #block-block-1 .footer-info div{
     float: left !important;
     margin-right: 5px !important;
+}
+/*Patrocinadores*/
+.patrocinadores-zona{
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  right: 0;
+  height: 40px;
+  width: 210px;
 }
