@@ -51,6 +51,10 @@ function foro_contactenos_block_info()
         'info' => 'Notas destacadas flex',
         'cache' => DRUPAL_NO_CACHE,
     );
+    $block['notasDestacadasFlex_NQ'] = array(
+        'info' => 'Notas destacadas flex NQ',
+        'cache' => DRUPAL_NO_CACHE,
+    );    
 
     return $block;
 }
@@ -74,6 +78,24 @@ function foro_contactenos_block_view($delta)
                 $block['content'] = '';
             }
             break;
+        case 'notasDestacadasFlex_NQ':
+            $custom_title = 'Notas destacadas flex NQ';
+            $block['subject'] = l($custom_title, '#NOTASDESTACADASNQ', array(
+                'attributes' => array(
+                    'class' => array('notas-destacadas-flex', 'active'),
+                ),
+                'html' => true,
+                    ));
+            if (theme_get_setting('slideshow_display','multipurpose')){
+                $view = views_get_view('nodequeue_1');
+                $view->set_display('block');
+                $view->build();
+                $outview=  $view->preview();
+                $block['content'] = '<div class="base-flex">'.$outview.'<div class="clear-1" style="clear:both;"></div></div>';
+            }else{
+                $block['content'] = '';
+            }
+            break;            
     }
 
     return $block;
