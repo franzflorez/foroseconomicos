@@ -85,9 +85,20 @@
             <?php print render($page['patrocinadores']); ?>
           </div>
         <?php endif; ?>        
-        
-        
-        
+ 
+    </header>
+  </div>
+
+  <div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
+  <div id="site-navigation-wrap">
+    <a href="#sidr-main" id="navigation-toggle"><span class="fa fa-bars"></span>Menu</a>
+    <nav id="site-navigation" class="navigation main-navigation clr" role="navigation">
+      <div id="main-menu" class="menu-main-container">
+        <?php 
+          $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+          print drupal_render($main_menu_tree);
+        ?>
+
       <?php if (theme_get_setting('socialicon_display', 'multipurpose')): ?>
       <?php 
       $twitter_url = check_plain(theme_get_setting('twitter_url', 'multipurpose')); 
@@ -114,19 +125,10 @@
           </li>
         </ul>
       </div>
-      <?php endif; ?>
-    </header>
-  </div>
-
-  <div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
-  <div id="site-navigation-wrap">
-    <a href="#sidr-main" id="navigation-toggle"><span class="fa fa-bars"></span>Menu</a>
-    <nav id="site-navigation" class="navigation main-navigation clr" role="navigation">
-      <div id="main-menu" class="menu-main-container">
-        <?php 
-          $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
-          print drupal_render($main_menu_tree);
-        ?>
+      <?php endif; ?>          
+          
+          
+          
       </div>
     </nav>
   </div>
