@@ -12,6 +12,9 @@
   text-shadow: 1px 1px #fff;
   font-weight: normal;
 }
+.base-flex .flex-caption{
+    background: rgba(0, 0, 0, 0.73) !important;
+}
 /*FOOTER*/
 #footer-wrap{
   padding-bottom: 0px !important;
