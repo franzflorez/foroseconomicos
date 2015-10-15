@@ -21,7 +21,7 @@
   font-weight: bold !important;
   font-size: 16px !important;
 }
-.base-flex .flex-caption a{
+.base-flex .flex-caption a:hover{
   color: #FFF !important;
 }
 .base-flex .flex-caption p{
