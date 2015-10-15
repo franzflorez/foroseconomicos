@@ -15,7 +15,7 @@
 .base-flex .flex-caption{
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    background: rgba(0, 0, 0, 0.73) !important;
+    /*background: rgba(0, 0, 0, 0.73) !important;*/
 }
 .base-flex .flex-caption a{
   font-weight: bold !important;
