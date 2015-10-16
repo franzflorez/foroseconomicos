@@ -120,9 +120,6 @@
           <?php if ($pinterest_url): ?><li>
             <a target="_blank" title="<?php print $site_name; ?> in Pinterest" href="<?php print $pinterest_url; ?>"><img alt="Pinterest" src="<?php print base_path() . drupal_get_path('theme', 'multipurpose') . '/images/social/pinterest.png'; ?>"> </a>
           </li><?php endif; ?>
-          <li>
-            <a target="_blank" title="<?php print $site_name; ?> in RSS" href="<?php print $front_page; ?>rss.xml"><img alt="RSS" src="<?php print base_path() . drupal_get_path('theme', 'multipurpose') . '/images/social/rss.png'; ?>"> </a>
-          </li>
         </ul>
       </div>
       <?php endif; ?>          
