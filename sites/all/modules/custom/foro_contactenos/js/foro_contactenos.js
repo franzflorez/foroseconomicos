@@ -6,6 +6,9 @@
                 $.ajax({
                         url: 'https://widgetsdataifx.blob.core.windows.net/dataifx/listcurrenciescorredores?a='+Math.random(),
                         async: true,
+                        headers: {
+                            Origin:"http://www.foroseconomicos.com"
+                        },
                         success: function(data) {
                             if(data == null){
                                 //alert('Imposible conectar con el servidor');
