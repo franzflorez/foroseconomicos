@@ -117,3 +117,10 @@ function foro_contactenos_block_view($delta)
 
     return $block;
 }
+function _get_block_indicadores_bolsa(){
+$json = drupal_http_request('https://widgetsdataifx.blob.core.windows.net/dataifx/listcurrenciescorredores');
+dpm($json,"JSON");
+$jsonFIN=str_replace("var listCurrencies=","",$json->data);
+dpm($json->data,"JSON DATA");
+dpm(json_decode($jsonFIN),"asssss");    
+}
