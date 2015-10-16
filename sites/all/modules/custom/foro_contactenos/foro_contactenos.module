@@ -55,6 +55,10 @@ function foro_contactenos_block_info()
         'info' => 'Notas destacadas flex NQ',
         'cache' => DRUPAL_NO_CACHE,
     );    
+    $block['dataifx_data'] = array(
+        'info' => 'Datos de la bolsa',
+        'cache' => DRUPAL_NO_CACHE,
+    );    
 
     return $block;
 }
@@ -62,6 +66,16 @@ function foro_contactenos_block_view($delta)
 {
     $block = array();
     switch ($delta) {
+        case 'dataifx_data':
+            $custom_title = 'Datos de la bolsa';
+            $block['subject'] = l($custom_title, '#DATOSBOLSA', array(
+                'attributes' => array(
+                    'class' => array('datos-bolsa-indicadores', 'active'),
+                ),
+                'html' => true,
+                    ));
+            $block['content'] = '<div class"datos-bolsa-contenedor"></div>';
+            break;        
         case 'notasDestacadasFlex':
             $custom_title = 'Notas destacadas flex';
             $block['subject'] = l($custom_title, '#NOTASDESTACADAS', array(
@@ -95,7 +109,7 @@ function foro_contactenos_block_view($delta)
             }else{
                 $block['content'] = '';
             }
-            break;            
+            break;           
     }
 
     return $block;
