@@ -20,6 +20,7 @@ function foro_contactenos_init()
 {
     drupal_add_css(drupal_get_path('module', 'foro_contactenos') . '/css/global_foros.css');
     drupal_add_css(drupal_get_path('module', 'foro_contactenos') . '/css/flexslider.css');
+    drupal_add_css(drupal_get_path('module', 'foro_contactenos') . '/css/style_foros.css');
     
     drupal_add_js(drupal_get_path('module', 'foro_contactenos') . '/js/jsondatabolsa.js');
     drupal_add_js(drupal_get_path('module', 'foro_contactenos') . '/js/foro_contactenos.js');
