@@ -63,6 +63,10 @@
  * @see template_preprocess_page()
  * @see template_process()
  */
+$content_front="";
+if(drupal_is_front_page()){
+    $content_front="content_front";    
+}
 ?>
 <div id="wrap" class="clr container">
   <div id="header-wrap" class="clr fixed-header">
@@ -165,7 +169,7 @@
   <div id="main" class="site-main clr">
     <?php $sidebarclass = ""; if($page['sidebar_first']) { $sidebarclass="left-content"; } ?>
     <div id="primary" class="content-area clr">
-      <section id="content" role="main" class="site-content <?php print $sidebarclass; ?> clr">
+      <section id="content" role="main" class="<?php echo $content_front; ?> site-content <?php print $sidebarclass; ?> clr">
         <?php if (theme_get_setting('breadcrumbs')): ?><?php if ($breadcrumb): ?><div id="breadcrumbs"><?php print $breadcrumb; ?></div><?php endif;?><?php endif; ?>
         <?php print $messages; ?>
         <?php if ($page['content_top']): ?><div id="content_top"><?php print render($page['content_top']); ?></div><?php endif; ?>
