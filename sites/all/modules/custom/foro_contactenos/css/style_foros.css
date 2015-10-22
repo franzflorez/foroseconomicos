@@ -274,6 +274,9 @@ h1.page-title {
   vertical-align: top;
   min-height: 390px;
 }
+.content_front .node-teaser {
+  width: 48%;
+}
 
 .node-teaser img {
   border: 1px solid #CCCCCC;
