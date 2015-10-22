@@ -275,7 +275,7 @@ h1.page-title {
   min-height: 390px;
 }
 .content_front .node-teaser {
-  width: 48%;
+  width: 48% !important;
 }
 
 .node-teaser img {
